@@ -1,1 +1,9 @@
-/* Write your CSS here! */
+body {
+    color: blueviolet;
+    font-size: x-large;
+}
+
+.title {
+    color: salmon;
+    font-family: fantasy;
+}
