@@ -1,12 +1,11 @@
 #mainHeading {
     color: red;
 }
-
 body {
    margin: 8px;
    background-color: maroon; 
+   font-family: Georgia, serif;
 }
-
 .title-text {
     background-color: black;
     text-align: center;
@@ -16,43 +15,68 @@ body {
     color: red;
 }
 
-.intro-container {
+.container-one {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(32, 4, 4);
+    background-color: rgb(32, 4, 4, 0.5);
   }
-  
-.intro-imgage {
+.imgage {
     max-width: 100%;
     max-height:100%;
-  }
-  
-.intro-text {
+  }  
+.text {
     font-size: 15px;
     padding-left: 20px;
     color: rgb(163, 159, 159);
   }
-
-  .intro-point {
-    color: red;
+  .point {
+    color: whitesmoke;
   }
 
-h2 {
+.h2-headings {
     color: red;
+    background-color: black;
+    align-content: center;
+    font-size: 25px;
+    text-align: center;
   }
-
 h3 {
+  font-size: 30px;
     color: rgb(197, 2, 2);
 }
 
+.container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 10, 10, 0.5);
+    width: 100%;
+}
 
-  #testP {
+.container-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 10, 10, 0.5);
+    width: 100%;
+}
+.bottom-image {
+  flex: below;
+}
+
+.footer {
+  font-size: xx-small;
+  position: sticky;
+  width: 100%;
+  bottom: 0px;
+}
+
+#testP {
     color: green;
     font-size: xx-small;
-  }
-
-  .funParagraph {
+}
+.funParagraph {
     color: green;
     font-size: xx-small;
-  }
+}
