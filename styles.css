@@ -1,9 +1,58 @@
-body {
-    color: blueviolet;
-    font-size: x-large;
+#mainHeading {
+    color: red;
 }
 
-.title {
-    color: salmon;
-    font-family: fantasy;
+body {
+   margin: 8px;
+   background-color: maroon; 
 }
+
+.title-text {
+    background-color: black;
+    text-align: center;
+    font-family: Georgia, serif;
+    width: 100%;
+    padding: 25px;
+    color: red;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 4, 4);
+  }
+  
+.intro-imgage {
+    max-width: 100%;
+    max-height:100%;
+  }
+  
+.intro-text {
+    font-size: 15px;
+    padding-left: 20px;
+    color: rgb(163, 159, 159);
+  }
+
+  .intro-point {
+    color: red;
+  }
+
+h2 {
+    color: red;
+  }
+
+h3 {
+    color: rgb(197, 2, 2);
+}
+
+
+  #testP {
+    color: green;
+    font-size: xx-small;
+  }
+
+  .funParagraph {
+    color: green;
+    font-size: xx-small;
+  }
