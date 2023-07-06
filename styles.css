@@ -21,10 +21,23 @@ body {
     justify-content: center;
     background-color: rgb(32, 4, 4, 0.5);
   }
-.image {
-    max-width: 100%;
-    max-height:100%;
+.imageWWP {
+    width: 272px;
+    height: 400px;
   }  
+.imageFNAFC {
+  width: 640px;
+  height: 400px;
+}
+.imageWWCH {
+  width: 711px;
+  height: 400px;
+}
+.imageFNAFCH {
+  width: 711px;
+  height: 400px;
+}
+
 .text {
     font-size: 15px;
     padding-left: 20px;
@@ -62,7 +75,8 @@ h3 {
     width: 100%;
 }
 .bottom-image {
-  flex: below;
+  width: 954px;
+  height: 400px;
 }
 
 .footer {
